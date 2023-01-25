@@ -1,0 +1,83 @@
+<app-header></app-header>
+
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a routerLink="/">Home</a></li>
+                        <li class="active">Borrow Credit Card</li>
+                    </ol>
+                </div>
+            </div>
+           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="bg-white pinside30">
+                    <div class="row">
+                       <div class="col-xl-4 col-lg-4 col-md-9 col-sm-12 col-12">
+                            <h1 class="page-title">All Products</h1>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-3 col-sm-12 col-12">
+                            <div class="row">
+                                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="btn-action"> <a href="#" class="btn btn-default">How To Apply</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-nav" id="sub-nav">
+                     <ul class="nav nav-justified">
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">Give me call back</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Emi Caculator</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content start -->
+<div class="container">
+    <div class="row">
+         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="wrapper-content bg-white pinside40">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" *ngFor="let p of products">
+                        <div class="card-listing">
+                            <!-- card listing -->
+                            <div class="card-img">
+                                <a><img src="{{ p.image }}" class="shadow" style="border-radius: 0.5rem;" alt="Borrow - A Loan Company Website Templates"></a>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-name"><a href="#" class="title">{{ p.nameProduct | titlecase }}</a></h3>
+                                <div class="card-features ">
+                                    <ul class="listnone">
+                                        <li>Price : <strong>{{ p.price | currency: 'XOF': ' Fcfa ' }}</strong></li>
+                                        <li><strong></strong>{{ p.description | slice:0:22 }}...</li>
+                                        <li>{{ p.category | titlecase }}</li>
+                                        <li>TVA : {{ p.price | pipe }}</li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn btn-default btn-sm">Apply Now</a>
+                                <a href="#" class="btn-link"> Read More</a>
+                            </div>
+                        </div>
+                        <!-- /.card listing -->
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.content end -->
+
+
+
+
+
+<app-footer></app-footer>

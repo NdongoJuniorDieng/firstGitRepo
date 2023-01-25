@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "nameProduct": "diakhatou",
+            "price": 100,
+            "image": "assets/2.jpeg",
+            "description": "Nous sommes une équipe de passionnés dont le but est d'améliorer la vie de chacun grâce à des produits disruptifs. Nous fabriquons d'excellents produits pour résoudre vos problèmes commerciaux. Nos produits sont conçus pour les petites et moyennes entreprises désireuses d'optimiser leurs performances.",
+            "categorie": "legume"
+        },
+        {
+            "id": 2,
+            "nameProduct": "carotte",
+            "price": 120,
+            "image": "assets/log.jpeg",
+            "description": "Nous sommes une équipe de passionnés dont le but est d'améliorer la vie de chacun grâce à des produits disruptifs. Nous fabriquons d'excellents produits pour résoudre vos problèmes commerciaux. Nos produits sont conçus pour les petites et moyennes entreprises désireuses d'optimiser leurs performances.",
+            "categorie": "legume"
+        },
+        {
+            "id": 3,
+            "nameProduct": "nétatou",
+            "price": 120,
+            "image": "assets/log.jpeg",
+            "description": "Nous sommes une équipe de passionnés dont le but est d'améliorer la vie de chacun grâce à des produits disruptifs. Nous fabriquons d'excellents produits pour résoudre vos problèmes commerciaux. Nos produits sont conçus pour les petites et moyennes entreprises désireuses d'optimiser leurs performances.",
+            "categorie": "legume"
+        },
+        {
+            "id": 4,
+            "nameProduct": "gnambi",
+            "price": 120,
+            "image": "assets/log.jpeg",
+            "description": "Nous sommes une équipe de passionnés dont le but est d'améliorer la vie de chacun grâce à des produits disruptifs. Nous fabriquons d'excellents produits pour résoudre vos problèmes commerciaux. Nos produits sont conçus pour les petites et moyennes entreprises désireuses d'optimiser leurs performances.",
+            "categorie": "legume"
+        }
+    ]
+}

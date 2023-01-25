@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "username": "Seck",
+            "firstname": "Amadou",
+            "lastname": "yalla",
+            "email": "amadou@gmail.com",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "username": "Lo",
+            "firstname": "Fatou",
+            "lastname": "Diop",
+            "email": "diop@gmail.com",
+            "password": "1234"
+        }
+    ]
+}
